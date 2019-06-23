@@ -1,0 +1,224 @@
+.popular-courses-area{
+    background-image: url('./clever/img/core-img/texture.png');
+}
+
+.img0{
+    content: url('./clever/img/bg-img/c1.jpg')
+}
+
+.img1{
+    content: url('./clever/img/bg-img/c2.jpg')
+}
+
+.img2{
+    content: url('./clever/img/bg-img/c3.jpg')
+}
+
+.img3{
+    content: url('./clever/img/bg-img/c4.jpg')
+}
+
+.img4{
+    content: url('./clever/img/bg-img/c5.jpg')
+}
+
+.img5{
+    content: url('./clever/img/bg-img/c6.jpg')
+}
+
+.img6{
+    content: url('./clever/img/bg-img/c7.jpg')
+}
+
+.img7{
+    content: url('./clever/img/bg-img/c8.jpg')
+}
+
+.class-card{
+    display:inline-block;
+    /* margin: 5px; */
+}
+
+
+.popular-courses-area {
+    position: relative;
+    z-index: 1;
+    background-repeat: repeat;
+  }
+
+  .section-padding-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .section-padding-100-0 {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  
+  .section-padding-0-100 {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+  
+  .section-padding-100-70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+  @media screen and (max-width: 1024px) {
+    .container {
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: calc(100% - 30px);
+      max-width: 100%;
+    }
+  }  
+
+  /* Section Heading */
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .section-heading h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width: 767px) {
+    .section-heading h3 {
+      font-size: 24px;
+    }
+  }
+  .section-heading.text-left {
+    text-align: left !important;
+  }
+  .section-heading.white h3 {
+    color: #ffffff;
+  }
+
+
+  
+
+.single-popular-course {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    background-color: #ffffff;
+  }
+  .single-popular-course img {
+    display: block;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+  }
+  .single-popular-course .course-content {
+    padding: 25px;
+  }
+  .single-popular-course .course-content h4 {
+    margin-bottom: 5px;
+  }
+  .single-popular-course .course-content .meta {
+    margin-bottom: 15px;
+  }
+  .single-popular-course .course-content .meta span {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 5px;
+    margin-right: 10px;
+  }
+  .single-popular-course .course-content .meta a {
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+  }
+  .single-popular-course .course-content .meta a:hover {
+    color: #000;
+  }
+  .single-popular-course .course-content p {
+    margin-bottom: 0;
+  }
+  .single-popular-course .seat-rating-fee {
+    width: 100%;
+    height: 40px;
+    background-color: #f7f7f7;
+    border-radius: 0 0 6px 6px;
+  }
+  .single-popular-course .seat-rating-fee .seat-rating {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    height: 100%;
+  }
+  .single-popular-course .seat-rating-fee .seat-rating div {
+    padding: 0 20px;
+    border-right: 1px solid #ebebeb;
+    height: 100%;
+    line-height: 40px;
+  }
+  .single-popular-course .seat-rating-fee .seat-rating i {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  .single-popular-course .seat-rating-fee .course-fee a {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    border-radius: 0 0 6px 0;
+    background-color: #e3d21b;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.75px;
+  }
+  .single-popular-course .seat-rating-fee .course-fee a.free {
+    background-color: #3762f0;
+  }
+  .mb-100 {
+    margin-bottom: 100px !important;
+  }
+
+  .single-popular-course .course-content {
+    padding: 25px;
+  }
+  .single-popular-course .course-content h4 {
+    margin-bottom: 5px;
+  }
+  .single-popular-course .course-content .meta {
+    margin-bottom: 15px;
+  }
+  .single-popular-course .course-content .meta span {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 5px;
+    margin-right: 10px;
+  }
+  .single-popular-course .course-content .meta a {
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+  }
+  .single-popular-course .course-content .meta a:hover {
+    color: #000;
+  }
+  .single-popular-course .course-content p {
+    margin-bottom: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: black
+  }
+  a:hover{
+    text-decoration: none;
+    color: black
+  }
